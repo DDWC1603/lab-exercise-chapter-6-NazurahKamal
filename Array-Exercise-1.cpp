@@ -3,18 +3,17 @@
 #include <iostream>
 using namespace std;
 
-ary[]={/*insert your own value*/};
-
-n, result=0;
+int ary[5]={2, 4, 6, 8, 10};/*insert your own value*/
 
 int main()
-{
-
-	for(/* n is not more than 10*/)
+{	
+	int n, result=0;
+	for(n=0; n<=5; n++)/* n is not more than 10*/
 	{
-		result += ary[];
+		result += ary[n];
 	}
 	cout<<result;
+	return  0;
 	
 
 }
